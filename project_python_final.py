@@ -2,7 +2,7 @@ import time
 import random
 
 #Library management system(For newly opened library)
-fh=open("Dictionery Main.txt","r")
+fh=open("Dictionery_Main.txt","r")
 li=fh.readlines()
 strallinone=li[0]
 allinone=eval(strallinone)
